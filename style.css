@@ -1,0 +1,69 @@
+body {
+  max-width: 50%;
+  margin: auto;
+}
+
+.move-area {
+  /*normally use body*/
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  /* height: 86vh; */
+  /* padding: 1% 5%; */
+  /* left: 13.2%; */
+  margin-top: 10%;
+}
+.container {
+  width: 18%;
+  top: 20px;
+  position: relative;
+  left: 22.5%;
+  height: 50%;
+  float: left;
+  margin: 12% 3.3%;
+  border-radius: 50%;
+  /* margin: 1%; */
+  padding: 1%;
+}
+.face__eye-ball {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 28%;
+  width: 25%;
+  background: transparent;
+  /* margin: 15.75% 5%; */
+  left: 24%;
+}
+.face__eye-ball:after {
+  /*pupil*/
+  position: absolute;
+  width: 100%;
+  height: 94%;
+  background: #000;
+  border-radius: 50%;
+  content: " ";
+  overflow: hidden;
+}
+
+.beard {
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    box-shadow: -15px 15px 0 5px white;
+    border-radius: 50%;
+  }
+}
+
+.face {
+  width: 50%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  margin-top: 10%;
+}
