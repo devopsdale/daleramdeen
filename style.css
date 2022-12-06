@@ -3,6 +3,12 @@ body {
   margin: auto;
 }
 
+@media (max-width: 480px) {
+  body {
+    max-width: 50%;
+    margin: auto;
+  }
+}
 .move-area {
   /*normally use body*/
   position: absolute;
@@ -13,28 +19,61 @@ body {
   /* left: 13.2%; */
   margin-top: 10%;
 }
+
 .container {
   width: 18%;
-  top: 20px;
+  top: 1%;
   position: relative;
   left: 22.5%;
-  height: 50%;
+  height: 44%;
   float: left;
   margin: 12% 3.3%;
   border-radius: 50%;
   /* margin: 1%; */
   padding: 1%;
 }
+
+@media (max-device-width: 480px) {
+  .container {
+    width: 18%;
+    top: 1%;
+    position: relative;
+    left: 22.5%;
+    height: 13%;
+    float: left;
+    margin: 12% 3.3%;
+    border-radius: 50%;
+    /* margin: 1%; */
+    padding: 1%;
+  }
+}
+
+
+
 .face__eye-ball {
   position: relative;
   display: inline-block;
   border-radius: 50%;
-  height: 28%;
+  height: 25%;
   width: 25%;
   background: transparent;
   /* margin: 15.75% 5%; */
   left: 24%;
 }
+
+@media (max-device-width: 480px) {
+  .face__eye-ball {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 20%;
+    width: 25%;
+    background: transparent;
+    /* margin: 15.75% 5%; */
+    left: 24%;
+  }
+}
+
 .face__eye-ball:after {
   /*pupil*/
   position: absolute;
